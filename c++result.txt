@@ -1,0 +1,5 @@
+		c++ quiz result
+name :mikias abate
+your mark is 1 out of 6
+you got 16%
+status fail!
