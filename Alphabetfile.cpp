@@ -9,7 +9,7 @@ int main()
     ofstream outFile("alphabet.txt");
     if (outFile.is_open())
     {
-        for (char ch = 'A'; ch <= 'Z'; ++ch)
+        for (char ch = 'a'; ch <= 'z'; ++ch)
         {
             outFile << ch << ' ';
         }

@@ -6,9 +6,9 @@ using namespace std;
 int main()
 {
 	// Get the full name of the student
-	string fullName;
+	char fullName[34];
 	cout << "Enter the full name of the student: ";
-	getline(cin, fullName);
+	cin.getline(fullName, 34);
 
 	// Open the file in write mode and write the full name
 	ofstream outFile("names.txt");
